@@ -1,0 +1,29 @@
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;        /* 100% del ancho */
+    /* Esto hace que la imagen cubra todo el espacio sin deformarse */
+    background-size: cover; 
+    background-position: center; /* Mejor centrarla que dejarla a la izquierda */
+    background-repeat: no-repeat;
+    box-sizing: border-box; /* Evita que el borde sume tamaño extra y cree scroll */
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 100px;
+    color: white;
+    text-shadow: 5px 10px 1px #450a0a;
+}
+
+label{
+
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 10px 1px #450a0a;
+}
