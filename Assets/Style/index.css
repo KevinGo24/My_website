@@ -1,11 +1,11 @@
-@import url('../Style/Photo.css');
-@import url('../Style/Section.css');
+@import url(/Assets/Style/Photo.css);
+@import url(/Assets/Style/Section.css);
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: url('../Icons/icono.svg'), auto;
+    cursor: url(/Assets/Icons/icono.svg), auto;
 }
 
 body {
