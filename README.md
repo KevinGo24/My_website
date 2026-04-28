@@ -31,4 +31,4 @@
 - ** Sigue estos pasos para ejecutar el proyecto localmente:
   1 ** Clonar repositorio **
   ''Bash
-  git clone
+  git clone https://github.com/KevinGo24/My_website.git
