@@ -1,15 +1,19 @@
+/*etiquetas*/
 section {
     display: flex;
     flex-direction: column;
-    width: 100%;        /* 100% del ancho */
+    width: 100%;
+    /* 100% del ancho */
     /* Esto hace que la imagen cubra todo el espacio sin deformarse */
-    background-size: cover; 
-    background-position: center; /* Mejor centrarla que dejarla a la izquierda */
+    background-size: cover;
+    background-position: center;
+    /* Mejor centrarla que dejarla a la izquierda */
     background-repeat: no-repeat;
-    box-sizing: border-box; /* Evita que el borde sume tamaño extra y cree scroll */
+    box-sizing: border-box;
+    /* Evita que el borde sume tamaño extra y cree scroll */
 }
 
-h1{
+h1 {
     text-align: center;
     font-weight: bolder;
     text-decoration: underline;
@@ -18,7 +22,7 @@ h1{
     text-shadow: 5px 10px 1px #450a0a;
 }
 
-label{
+label {
 
     text-align: center;
     font-weight: bolder;
@@ -26,4 +30,75 @@ label{
     font-size: 50px;
     color: white;
     text-shadow: 5px 10px 1px #450a0a;
+}
+
+p {
+    color: white;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 15px
+}
+
+h1 {
+    /* Hace que el h1 empiece en la línea 1 y termine en la última (abarca todo) */
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: white;
+    /* Ajusta según tu fondo */
+}
+
+/*-------------------------------------------------------------*/
+/*clases y subclases*/
+.description_1 {
+    display: grid;
+    /* Mantenemos las 3 columnas */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 25px;
+    padding: 40px;
+    /* Importante para que el h1 no rompa el flujo */
+    align-items: start; 
+}
+
+h1 {
+    /* ESTA ES LA CLAVE: hace que el título ocupe las 3 columnas */
+    grid-column: 1 / -1; 
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: underline; /* Para mantener tu estilo actual */
+}
+
+.div_1 {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05); /* Un fondo sutil para que se note el cuadro */
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Para que todos los cuadros midan lo mismo */
+}
+
+.img_1 {
+    width: 100%;
+    height: auto; /* Evita que la imagen se estire feo */
+    aspect-ratio: 16 / 9; /* Mantiene la proporción de la captura */
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px groove white;
+    transition: 0.5s;
+}
+
+.div_1 p {
+    color: white;
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+/* Efectos visuales mejorados */
+.img_1:hover {
+    transform: scale(0.95);
+    box-shadow: 0px 0px 15px white;
 }
