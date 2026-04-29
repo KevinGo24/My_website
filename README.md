@@ -1,24 +1,27 @@
 # KEvin Gonzalez Visbal
 ### Desarrollador Web
 ### FantasyGo
->[!note]
-> Esta es mi pagina web donde encontraras cada detalle sobre mi trayecto, conocmientos y como eh ido evolucionando en el proceso de la progrmacion
 
-[!note]
+>[!note]
+> Esta es mi pagina personal donde encontraras una galeria de fotos donde se encuetra fotos de los lenguiajes que eh manejado, tanto en base de datos, backend y frontend
+>Conocimientos solidos en HTML, CSS, SASS, JAVASCRIPT, BASE DE DATOS RELACIONES(SQLSERVER)
+
+>[!import]
 
 - ** Interfaz : diseño creativo basado en dos colores con degradados
 - ** animaciones : se hicieron diseños sencillos para generar la primera imprecion
-- ** Reponse : esta modo prueba asi que aun no se ha echo el reponse
+- ** Reponse : esta diseñado para los dispositivos mobile 
 
 ## Tecnologias
 
+>[!import]
 | Tecnología | Uso |
 | :--- | :--- |
 | **Html** | Lenguaje de etiquetaDOS |
 | **CSS Grid/Flexbox** | Maquetación y diseño visual |
 
 ## Estructura
-
+>[!import]
 - ** Assets|----Icon
            |      |------- Icono.svg
            |----Styles
@@ -27,7 +30,7 @@
                 |-----Section.css
   
 - ** Index.html
-
+>[!note]
 ## Instalacion o comandos
 
 - ** Sigue estos pasos para ejecutar el proyecto localmente:
