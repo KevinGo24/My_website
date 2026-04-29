@@ -1,16 +1,28 @@
-# KEvin Gonzalez Visbal
-### Desarrollador Web
-### FantasyGo
+🚀 Kevin Gonzalez Visbal
+Full Stack Developer | CEO FantasyGo
+
 :art: 
->[!note]
-> Esta es mi pagina personal donde encontraras una galeria de fotos donde se encuetra fotos de los lenguiajes que eh manejado, tanto en base de datos, backend y frontend
+[!TIP]
+Bienvenido a mi portafolio. Aquí encontrarás una galería interactiva con los proyectos y lenguajes que domino en el ecosistema Web y Datos.
 >Conocimientos solidos en HTML, CSS, SASS, JAVASCRIPT, BASE DE DATOS RELACIONES(SQLSERVER)
 
 >[!important]
 
-- ** Interfaz : diseño creativo basado en dos colores con degradados
-- ** animaciones : se hicieron diseños sencillos para generar la primera imprecion
-- ** Reponse : esta diseñado para los dispositivos mobile 
+🛠️ Stack Tecnológico
+
+Frontend: HTML5, CSS3 (SASS), JavaScript.
+
+- ## Diseño: Layouts modernos con CSS Grid y Flexbox.
+
+- ## Backend & DB: SQL Server y lógica de servidores.
+
+🛠️ Stack Tecnológico
+
+- ## Frontend: HTML5, CSS3 (SASS), JavaScript.
+
+- ## Diseño: Layouts modernos con CSS Grid y Flexbox.
+
+- ## Backend & DB: SQL Server y lógica de servidores.
 
 # Tecnologias
 >[!import]
@@ -21,12 +33,14 @@
 
 ## Estructura
 >[!import]
-- ** Assets|----Icon
-           |      |------- Icono.svg
-           |----Styles
-                |-----Index.css
-                |-----Photo.css
-                |-----Section.css
+📂 Assets
+ ┣ 📂 Icon
+ ┃ ┗ 📜 Icono.svg
+ ┣ 📂 Styles
+ ┃ ┣ 📜 Index.css
+ ┃ ┣ 📜 Photo.css
+ ┃ ┗ 📜 Section.css
+📜 Index.html
   
 - ** Index.html
 :open_file_folder: -Assetts
@@ -34,5 +48,4 @@
 >[!note]
 - ** Sigue estos pasos para ejecutar el proyecto localmente:
   1 ** Clonar repositorio **
-  ''Bash
-  git clone https://github.com/KevinGo24/My_website.git
+ git clone https://github.com/KevinGo24/My_website.git
