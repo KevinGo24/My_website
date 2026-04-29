@@ -6,7 +6,7 @@
 > Esta es mi pagina personal donde encontraras una galeria de fotos donde se encuetra fotos de los lenguiajes que eh manejado, tanto en base de datos, backend y frontend
 >Conocimientos solidos en HTML, CSS, SASS, JAVASCRIPT, BASE DE DATOS RELACIONES(SQLSERVER)
 
->[!import]
+>[!important]
 
 - ** Interfaz : diseño creativo basado en dos colores con degradados
 - ** animaciones : se hicieron diseños sencillos para generar la primera imprecion
