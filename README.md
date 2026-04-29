@@ -1,7 +1,7 @@
 # KEvin Gonzalez Visbal
 ### Desarrollador Web
 ### FantasyGo
-[!note]
+>[!note]
 > Esta es mi pagina web donde encontraras cada detalle sobre mi trayecto, conocmientos y como eh ido evolucionando en el proceso de la progrmacion
 
 [!note]
