@@ -1,7 +1,7 @@
 # KEvin Gonzalez Visbal
 ### Desarrollador Web
 ### FantasyGo
-
+:art: 
 >[!note]
 > Esta es mi pagina personal donde encontraras una galeria de fotos donde se encuetra fotos de los lenguiajes que eh manejado, tanto en base de datos, backend y frontend
 >Conocimientos solidos en HTML, CSS, SASS, JAVASCRIPT, BASE DE DATOS RELACIONES(SQLSERVER)
@@ -29,7 +29,7 @@
                 |-----Section.css
   
 - ** Index.html
-
+:open_file_folder: -Assetts
 ## Instalacion o comandos
 >[!note]
 - ** Sigue estos pasos para ejecutar el proyecto localmente:

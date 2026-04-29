@@ -12,6 +12,20 @@
             justify-content: center;
             align-items: center;
             align-content: center;
+            text-decoration: none;
+      }
+      label{
+            display: flex;
+            font-size: 20px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            text-decoration: none;
+      }
+      header{
+            display: flex;
+            flex-direction: column;
       }
 }
 
