@@ -11,7 +11,6 @@ Full Stack Developer | CEO FantasyGo
 > ## Frontend: HTML5, CSS3 (SASS), JavaScript.
 > ## Diseño: Layouts modernos con CSS Grid y Flexbox.
 > ## Backend & DB: SQL Server y lógica de servidores.
-> [!NOTE]
 | Tecnología | Uso |
 | :--- | :--- |
 | **Html** | Lenguaje de etiquetaDOS |
