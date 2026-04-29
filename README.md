@@ -1,7 +1,7 @@
 🚀 Kevin Gonzalez Visbal
 Full Stack Developer | CEO FantasyGo
 
-:art: 
+
 [!TIP]
 Bienvenido a mi portafolio. Aquí encontrarás una galería interactiva con los proyectos y lenguajes que domino en el ecosistema Web y Datos.
 >Conocimientos solidos en HTML, CSS, SASS, JAVASCRIPT, BASE DE DATOS RELACIONES(SQLSERVER)
