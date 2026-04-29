@@ -12,8 +12,7 @@
 - ** animaciones : se hicieron diseños sencillos para generar la primera imprecion
 - ** Reponse : esta diseñado para los dispositivos mobile 
 
-## Tecnologias
-
+# Tecnologias
 >[!import]
 | Tecnología | Uso |
 | :--- | :--- |
@@ -30,9 +29,9 @@
                 |-----Section.css
   
 - ** Index.html
->[!note]
-## Instalacion o comandos
 
+## Instalacion o comandos
+>[!note]
 - ** Sigue estos pasos para ejecutar el proyecto localmente:
   1 ** Clonar repositorio **
   ''Bash
