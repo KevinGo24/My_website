@@ -26,8 +26,9 @@ Full Stack Developer | CEO FantasyGo
  ┃ ┣ 📜 Photo.css
  ┃ ┗ 📜 Section.css
 📜 Index.html
-> [!WARNING]
+
 ## Instalacion o comando
-- ** Sigue estos pasos para ejecutar el proyecto localmente:
-  1 ** Clonar repositorio **
- git clone https://github.com/KevinGo24/My_website.git
+> [!WARNING]
+> ** Sigue estos pasos para ejecutar el proyecto localmente:
+ > 1 ** Clonar repositorio **
+ >git clone https://github.com/KevinGo24/My_website.git
