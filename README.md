@@ -1,8 +1,10 @@
-# FantasyGo
-
+# KEvin Gonzalez Visbal
+### Desarrollador Web
+### FantasyGo
+[!note]
 > Esta es mi pagina web donde encontraras cada detalle sobre mi trayecto, conocmientos y como eh ido evolucionando en el proceso de la progrmacion
 
-## Caracteristica
+[!note]
 
 - ** Interfaz : diseño creativo basado en dos colores con degradados
 - ** animaciones : se hicieron diseños sencillos para generar la primera imprecion
