@@ -2,11 +2,11 @@
 Full Stack Developer | CEO FantasyGo
 
 
-[!TIP]
+> [!NOTE]
 >Bienvenido a mi portafolio. Aquí encontrarás una galería interactiva con los proyectos y lenguajes que domino en el ecosistema Web y Datos.
 >Conocimientos solidos en HTML, CSS, SASS, JAVASCRIPT, BASE DE DATOS RELACIONES(SQLSERVER)
 
->[!important]
+> [!IMPORTANT]
 
 🛠️ Stack Tecnológico
 
@@ -25,14 +25,16 @@ Frontend: HTML5, CSS3 (SASS), JavaScript.
 - ## Backend & DB: SQL Server y lógica de servidores.
 
 # Tecnologias
->[!import]
+> [!IMPORTANT]
+
 | Tecnología | Uso |
 | :--- | :--- |
 | **Html** | Lenguaje de etiquetaDOS |
 | **CSS Grid/Flexbox** | Maquetación y diseño visual |
 
 ## Estructura
->[!import]
+
+> [!IMPORTANT]
 📂 Assets
  ┣ 📂 Icon
  ┃ ┗ 📜 Icono.svg
@@ -42,10 +44,11 @@ Frontend: HTML5, CSS3 (SASS), JavaScript.
  ┃ ┗ 📜 Section.css
 📜 Index.html
   
-- ** Index.html
-:open_file_folder: -Assetts
+:open_file_folder: 
+
+> Assetts
 ## Instalacion o comandos
->[!note]
+> [!IMPORTANT]
 - ** Sigue estos pasos para ejecutar el proyecto localmente:
   1 ** Clonar repositorio **
  git clone https://github.com/KevinGo24/My_website.git
