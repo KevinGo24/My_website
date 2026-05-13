@@ -1,12 +1,12 @@
-@import url(/Assets/Style/Photo.css);
-@import url(/Assets/Style/Section.css);
-@import url(/Assets/Reponsive/Reponse.css);
+@import url("./Photo.css");
+@import url("./Section.css");
+@import url("../Reponsive/Reponse.css");
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: url(/Assets/Icons/icono.svg), auto;
+    cursor: url("../Icons/icono.svg"), auto;
 }
 
 body {
