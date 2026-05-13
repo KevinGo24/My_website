@@ -17,7 +17,6 @@ Full Stack Developer | CEO FantasyGo
 | **CSS Grid/Flexbox** | Maquetación y diseño visual |
 ## Estructura
 ```text
-> [!IMPORTANT]
 📂 Assets
  ┣ 📂 Icon
  ┃ ┗ 📜 Icono.svg
