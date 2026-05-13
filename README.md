@@ -3,10 +3,13 @@ Full Stack Developer | CEO FantasyGo
 > [!NOTE]
 >Bienvenido a mi portafolio. Aquí encontrarás una galería interactiva con los proyectos y lenguajes que domino en el ecosistema Web y Datos.
 >Conocimientos solidos en HTML, CSS, SASS, JAVASCRIPT, BASE DE DATOS RELACIONES(SQLSERVER)
-🛠️ Stack Tecnológico
+
+> #🛠️ Stack Tecnológico
 > ## Frontend: HTML5, CSS3 (SASS), JavaScript.
 > ## Diseño: Layouts modernos con CSS Grid y Flexbox.
 > ## Backend & DB: SQL Server y lógica de servidores.
+
+
 | Tecnología | Uso |
 | :--- | :--- |
 | **Html** | Lenguaje de etiquetaDOS |
