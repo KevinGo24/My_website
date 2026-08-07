@@ -1,104 +1,144 @@
-/*etiquetas*/
 section {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    /* 100% del ancho */
-    /* Esto hace que la imagen cubra todo el espacio sin deformarse */
+    min-height: 70vh;
+    text-align: center;
+    padding: 40px 20px;
     background-size: cover;
     background-position: center;
-    /* Mejor centrarla que dejarla a la izquierda */
     background-repeat: no-repeat;
     box-sizing: border-box;
-    /* Evita que el borde sume tamaño extra y cree scroll */
+}
+
+.eyebrow {
+    color: #f5b942;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 12px;
 }
 
 h1 {
-    text-align: center;
-    font-weight: bolder;
-    text-decoration: underline;
-    font-size: 100px;
+    font-family: "Cinzel", serif;
+    font-weight: 900;
+    font-size: clamp(2.5rem, 8vw, 6rem);
     color: white;
-    text-shadow: 5px 10px 1px #450a0a;
+    text-shadow: 0 0 30px rgba(245, 185, 66, 0.35), 4px 6px 0 #450a0a;
+    margin: 0;
 }
 
-label {
-
-    text-align: center;
-    font-weight: bolder;
-    text-decoration: underline;
-    font-size: 20px;
-    color: white;
-    text-shadow: 5px 10px 1px #450a0a;
-}
-
-p {
-    color: white;
-    font-weight: bolder;
-    text-align: left;
-    font-size: 15px
-}
-
-h1 {
-    /* Hace que el h1 empiece en la línea 1 y termine en la última (abarca todo) */
-    grid-column: 1 / -1;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 2.5rem;
-    color: white;
-    /* Ajusta según tu fondo */
+.subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 14px;
+    max-width: 40ch;
 }
 
 /*-------------------------------------------------------------*/
 /*clases y subclases*/
 .description_1 {
-    display: grid;
-    /* Mantenemos las 3 columnas */
-    grid-template-columns: repeat(3, 1fr); 
+    display: flex;
+    flex-direction: column;
     gap: 25px;
-    padding: 40px;
-    /* Importante para que el h1 no rompa el flujo */
-    align-items: start; 
+    padding: 60px 40px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-h1 {
-    /* ESTA ES LA CLAVE: hace que el título ocupe las 3 columnas */
-    grid-column: 1 / -1; 
+.description_1 h2 {
     text-align: center;
-    margin-bottom: 30px;
-    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: "Cinzel", serif;
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
     color: white;
-    text-decoration: underline; /* Para mantener tu estilo actual */
+    text-shadow: 3px 4px 0 #450a0a;
 }
 
 .div_1 {
-    border: 2px solid white;
-    border-radius: 15px;
-    padding: 15px;
-    background: rgba(255, 255, 255, 0.05); /* Un fondo sutil para que se note el cuadro */
     display: flex;
-    flex-direction: column;
-    height: 100%; /* Para que todos los cuadros midan lo mismo */
+    align-items: center;
+    gap: 30px;
+    border: 1px solid rgba(245, 185, 66, 0.2);
+    border-radius: 15px;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.04);
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.div_1:hover {
+    border-color: rgba(245, 185, 66, 0.5);
+    transform: translateX(4px);
+}
+
+.div_1 figure {
+    flex: 0 0 220px;
+    margin: 0;
 }
 
 .img_1 {
     width: 100%;
-    height: auto; /* Evita que la imagen se estire feo */
-    aspect-ratio: 16 / 9; /* Mantiene la proporción de la captura */
+    height: auto;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
     border-radius: 10px;
-    border: 2px groove white;
-    transition: 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: transform 0.4s ease;
 }
 
-.div_1 p {
-    color: white;
-    margin-top: 15px;
-    line-height: 1.4;
-}
-
-/* Efectos visuales mejorados */
 .img_1:hover {
-    transform: scale(0.95);
-    box-shadow: 0px 0px 15px white;
+    transform: scale(1.03);
+}
+
+.div_1-text {
+    flex: 1;
+    text-align: left;
+}
+
+.div_1-text p {
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    font-size: 15px;
+    margin: 0;
+}
+
+.div_1-text ul {
+    margin-top: 12px;
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.div_1-text ul li::marker {
+    color: #f5b942;
+}
+
+/* Alterna imagen izquierda/derecha para que no se vea repetitivo */
+.div_1:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 700px) {
+    .div_1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .div_1:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .div_1 figure {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .div_1-text {
+        text-align: left;
+    }
 }
