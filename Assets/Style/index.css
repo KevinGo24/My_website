@@ -163,3 +163,70 @@ footer {
     font-size: 13px;
     margin: 0;
 }
+
+/*Reponse */
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.6rem;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+.nav-toggle:hover {
+    color: #f5b942;
+}
+
+@media (max-width: 700px) {
+    .nav-toggle {
+        display: block;
+    }
+
+    nav {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 20px;
+    }
+
+    #nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        gap: 0;
+        background: rgba(11, 18, 32, 0.97);
+        border-bottom: 1px solid rgba(245, 185, 66, 0.25);
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        padding: 0;
+        margin: 0;
+    }
+
+    #nav-links.open {
+        max-height: 300px;
+    }
+
+    #nav-links li {
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        width: 100%;
+    }
+
+    #nav-links a,
+    #nav-links .brand {
+        display: flex;
+        padding: 16px 24px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #nav-links .brand {
+        display: none; /* la marca ya está fuera del menú colapsable, no se repite */
+    }
+}
