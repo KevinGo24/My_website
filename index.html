@@ -5,106 +5,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./Assets/Icons/icono.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./Assets/Style/index.css">
     <title>FantasyGo</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>FantasyGo</li>
-                <li>
-                    <a href="#Home">Home</a>
-                </li>
-                <li>
-                    <a href="#Contact">Contact</a>
-                </li>
-                <li>
-                    <a href="#Support">Support</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h1>FantasyGo</h1>
-        <label>Bienvenido a mi WebSite</label>
-    </section>
+<header>
+    <nav>
+        <ul>
+            <li class="brand"><i class="bi bi-controller"></i> FantasyGo</li>
+            <li>
+                <a href="#Home"><i class="bi bi-house-door-fill"></i> Home</a>
+            </li>
+            <li>
+                <a href="#Contact"><i class="bi bi-envelope-fill"></i> Contact</a>
+            </li>
+            <li>
+                <a href="#Support"><i class="bi bi-life-preserver"></i> Support</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<section class="hero">
+    <p class="eyebrow"><i class="bi bi-code-square"></i> Desarrollador de software</p>
+    <h1>FantasyGo</h1>
+    <p class="subtitle"><i class="bi bi-hand-thumbs-up-fill"></i> Bienvenido a mi WebSite</p>
+</section>
     <div class="carousel">
         <div class="groups">
-
-            <div class="card">
-                <img src="./Assets/Picture/Html.jpg" alt="" class="photo">
-            </div>
-            <div class="card">
-                <img src="./Assets/Picture/css.png" alt="" class="photo">
-            </div>
-            <div class="card"><img src="./Assets/Picture/net.png" alt="" class="photo"></div>
-            <div class="card"><img src="./Assets/Picture/py.png" alt="" class="photo"></div>
-            <div class="card"><img src="./Assets/Picture/Serve.jpeg" alt="" class="photo"></div>
-            <div class="card"><img src="./Assets/Picture/spring.jpeg" alt="" class="photo"></div>
-            <div class="card"><img src="./Assets/Picture/java.png" alt="" class="photo"></div>
-            <div class="card"><img src="./Assets/Picture/Html.jpg" alt="" class="photo"></div>
-            <div class="card"><img src="./Assets/Picture/Html.jpg" alt="" class="photo"></div>
-            <div class="card"><img src="./Assets/Picture/Html.jpg" alt="" class="photo"></div>
+            <div class="card"><img src="./Assets/Picture/Html.jpg" alt="HTML5" class="photo"></div>
+            <div class="card"><img src="./Assets/Picture/css.png" alt="CSS3" class="photo"></div>
+            <div class="card"><img src="./Assets/Picture/net.png" alt=".NET" class="photo"></div>
+            <div class="card"><img src="./Assets/Picture/py.png" alt="Python" class="photo"></div>
+            <div class="card"><img src="./Assets/Picture/Serve.jpeg" alt="SQL Server" class="photo"></div>
+            <div class="card"><img src="./Assets/Picture/spring.jpeg" alt="Spring" class="photo"></div>
+            <div class="card"><img src="./Assets/Picture/java.png" alt="Java" class="photo"></div>
+            <!-- Set duplicado para que el loop del carrusel no tenga cortes -->
+            <div class="card" aria-hidden="true"><img src="./Assets/Picture/Html.jpg" alt="" class="photo"></div>
+            <div class="card" aria-hidden="true"><img src="./Assets/Picture/css.png" alt="" class="photo"></div>
+            <div class="card" aria-hidden="true"><img src="./Assets/Picture/net.png" alt="" class="photo"></div>
+            <div class="card" aria-hidden="true"><img src="./Assets/Picture/py.png" alt="" class="photo"></div>
+            <div class="card" aria-hidden="true"><img src="./Assets/Picture/Serve.jpeg" alt="" class="photo"></div>
+            <div class="card" aria-hidden="true"><img src="./Assets/Picture/spring.jpeg" alt="" class="photo"></div>
+            <div class="card" aria-hidden="true"><img src="./Assets/Picture/java.png" alt="" class="photo"></div>
         </div>
     </div>
+
     <article class="description_1">
-        <h1>Conocimientos</h1>
-        <section class="div_1">
-            <figure>
-                <img src="./Assets/Picture/1.jpg" alt="" class="img_1">
-            </figure>
-            <p>Mi comienzo en el mundo de la programación surgió por la curiosidad de saber cómo se hace una página: qué contiene y
-            cómo se ve tan chévere. También comencé a inspeccionar cada página que veía, y me fue llamando la atención cada vez más.
-            </p>
+        <h2><i class="bi bi-mortarboard-fill"></i> Conocimientos</h2>
 
-        </section>
         <section class="div_1">
             <figure>
-                <img src="./Assets/Picture/3.jpg" alt="" class="img_1">
+                <img src="./Assets/Picture/1.jpg" alt="Primeros pasos explorando código" class="img_1">
             </figure>
-            <p>- Mis primeros paso comenzaron con pseudocódigo en tratar de conocer:</p>
-            <p>- Datos de entrada</p>
-            <p>- Datos de salida</p>
-            <p>- Condicionales</p>
-            <p>- Bucles</p>
+            <div class="div_1-text">
+                <h3><i class="bi bi-lightbulb-fill"></i> El origen</h3>
+                <p>Descubrí la programación explorando el código fuente de páginas web que me parecían interesantes. Esa
+                    curiosidad inicial —entender cómo funcionaba lo que veía en pantalla— se transformó en una decisión
+                    concreta: aprender a construir cosas similares por mí mismo.</p>
+            </div>
         </section>
-        <section class="div_1">
-            <figure>
-                <img src="./Assets/Picture/2.jpeg" alt="" class="img_1">
-            </figure>
-            <p>Comenze a estudiar la programacion en:</p>
-            <p>- SENA (año 2020-2021) como tecnico en programacion</p>
-            <p> - SENA (año 2023-2024) como tecnologo en analisis y desarrollo de software</p>
-        </section>
-        <section class="div_1">
-            <figure>
-                <img src="./Assets/Picture/1.jpg" alt="" class="img_1">
-            </figure>
-            <p>Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. In doloribus maxime a
-                aperiam pariatur ratione quis. Sunt minus cum magnam?</p>
 
-        </section>
         <section class="div_1">
             <figure>
-                <img src="./Assets/Picture/1.jpg" alt="" class="img_1">
+                <img src="./Assets/Picture/3.jpg" alt="Cuaderno con pseudocódigo" class="img_1">
             </figure>
-            <p>Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. In doloribus maxime a
-                aperiam pariatur ratione quis. Sunt minus cum magnam?</p>
-
+            <div class="div_1-text">
+                <h3><i class="bi bi-code-slash"></i> Las bases</h3>
+                <p>Mis primeros pasos comenzaron con pseudocódigo, tratando de conocer:</p>
+                <ul>
+                    <li><i class="bi bi-box-arrow-in-down"></i> Datos de entrada</li>
+                    <li><i class="bi bi-box-arrow-up"></i> Datos de salida</li>
+                    <li><i class="bi bi-signpost-split"></i> Condicionales</li>
+                    <li><i class="bi bi-arrow-repeat"></i> Bucles</li>
+                </ul>
+            </div>
         </section>
+
         <section class="div_1">
             <figure>
-                <img src="./Assets/Picture/1.jpg" alt="" class="img_1">
+                <img src="./Assets/Picture/2.jpeg" alt="Formación en el SENA" class="img_1">
             </figure>
-            <p>Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. In doloribus maxime a
-                aperiam pariatur ratione quis. Sunt minus cum magnam?</p>
+            <div class="div_1-text">
+                <h3><i class="bi bi-mortarboard"></i> Formación</h3>
+                <p>Comencé a estudiar programación en:</p>
+                <ul>
+                    <li><i class="bi bi-check2-circle"></i> SENA (2020–2021) · Técnico en programación</li>
+                    <li><i class="bi bi-check2-circle"></i> SENA (2023–2024) · Tecnólogo en análisis y desarrollo de
+                        software</li>
+                </ul>
+            </div>
+        </section>
 
+        <section class="div_1">
+            <figure>
+                <img src="./Assets/Picture/1.jpg" alt="Proyecto personal" class="img_1">
+            </figure>
+            <div class="div_1-text">
+                <h3><i class="bi bi-folder2-open"></i> [ Título del proyecto ]</h3>
+                <p>[ Reemplaza este texto con la descripción real de un proyecto: qué problema resuelve, qué tecnologías
+                    usaste y qué aprendiste. ]</p>
+            </div>
+        </section>
+
+        <section class="div_1">
+            <figure>
+                <img src="./Assets/Picture/1.jpg" alt="Proyecto personal" class="img_1">
+            </figure>
+            <div class="div_1-text">
+                <h3><i class="bi bi-folder2-open"></i> [ Título del proyecto ]</h3>
+                <p>[ Descripción de otro proyecto real: contexto, tu rol y el resultado obtenido. ]</p>
+            </div>
+        </section>
+
+        <section class="div_1">
+            <figure>
+                <img src="./Assets/Picture/1.jpg" alt="Proyecto personal" class="img_1">
+            </figure>
+            <div class="div_1-text">
+                <h3><i class="bi bi-folder2-open"></i> [ Título del proyecto ]</h3>
+                <p>[ Descripción de un tercer proyecto: qué lo hace interesante técnicamente. ]</p>
+            </div>
         </section>
     </article>
+    <footer id="Contact">
+        <div class="footer-inner">
+            <p class="footer-brand"><i class="bi bi-controller"></i> FantasyGo</p>
+    
+            <ul class="footer-social">
+                <li><a href="https://github.com/KevinGo24" aria-label="GitHub"><i class="bi bi-github"></i></a></li>
+                <li><a href="www.linkedin.com/in/kevin-andres-gonzalez-visbal-96087b228" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
+                <li><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
+                <li><a href="gonzalezvisbalkevinandres@gmail.com" aria-label="Correo"><i class="bi bi-envelope-fill"></i></a></li>
+            </ul>
+    
+            <p class="footer-copy">&copy; 2026 FantasyGo · Todos los derechos reservados · Kevin Andrés González Visbal</p>
+        </div>
+    </footer>
 </body>
+
 </html>
