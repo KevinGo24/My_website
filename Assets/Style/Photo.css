@@ -1,20 +1,25 @@
+/* ==========================================================================
+   CAROUSEL / TECH TICKER PROFESIONAL
+   ========================================================================== */
+
+.tech-section {
+    padding: 60px 0 40px;
+}
+
 .carousel {
-    margin: 100px auto;
-    width: 90%;
-    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
     overflow: hidden;
-    border-radius: 14px;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    box-shadow: 0 4px 30px rgba(30, 58, 138, 0.4);
-    padding: 30px 0;
-    mask-image: linear-gradient(90deg, transparent, black 8%, black 92%, transparent);
-    -webkit-mask-image: linear-gradient(90deg, transparent, black 8%, black 92%, transparent);
+    padding: 20px 0;
+    position: relative;
+    mask-image: linear-gradient(90deg, transparent 0%, black 12%, black 88%, transparent 100%);
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, black 12%, black 88%, transparent 100%);
 }
 
 .groups {
     display: flex;
     align-items: center;
-    gap: 1.5em;
+    gap: 1.5rem;
     width: max-content;
     animation: carrusel 35s linear infinite;
 }
@@ -23,28 +28,45 @@
     animation-play-state: paused;
 }
 
-.card {
+.tech-pill {
     flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    padding: 10px 20px;
+    border-radius: var(--radius-full);
+    transition: var(--transition-smooth);
+    user-select: none;
+}
+
+.tech-pill:hover {
+    border-color: var(--primary);
+    background: var(--bg-surface-elevated);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(56, 189, 248, 0.2);
 }
 
 .photo {
-    border-radius: 10px;
-    width: 220px;
-    height: 180px;
-    object-fit: cover;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    border-radius: 6px;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
 }
 
-.photo:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 24px rgba(245, 185, 66, 0.35);
+.tech-pill span {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: -0.2px;
 }
 
 @keyframes carrusel {
     from {
         transform: translateX(0);
     }
-
     to {
         transform: translateX(-50%);
     }
